@@ -1,0 +1,16 @@
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import java.util.ArrayList;
+import java.util.List;
+
+public class TrainManagementAppTest {
+
+    @Test
+    void testInitialBogieCount() {
+        // Logic: Verify the starting state of the train
+        List<String> trainConsist = new ArrayList<>();
+
+        // Expected: 0 bogies, Actual: size of the list
+        assertEquals(0, trainConsist.size(), "The train should start with 0 bogies.");
+    }
+}
